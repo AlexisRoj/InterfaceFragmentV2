@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFF"
+    android:layout_height="match_parent"
+    tools:context="com.innovagenesis.aplicaciones.android.interfacefragmentv2.Interface"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:id="@+id/fragmentEmisor"
+        android:name="com.innovagenesis.aplicaciones.android.interfacefragmentv2.Emisor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_emisor" />
+
+    <fragment
+        android:id="@+id/fragmentReceptor"
+        android:name="com.innovagenesis.aplicaciones.android.interfacefragmentv2.Receptor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_receptor" />
+
+
+</LinearLayout>
